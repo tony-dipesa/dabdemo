@@ -13,7 +13,7 @@ go
 use DataAPIBuilderDemo
 go
 
-create login dab_demo with password = 'pass_data_summit_2024';
+create login dab_demo with password = 'put an actual password here';
 
 create user dab_demo for login dab_demo;
 
@@ -27,4 +27,4 @@ grant create view to dab_demo;  -- TPD 05/31/2024.
 
 grant references to dab_demo;  -- TPD 05/31/2024.
 
-alter login dab_demo with password = 'sql_saturday_albany_aug_2024';
+alter login dab_demo with password = 'put another actual password here';
